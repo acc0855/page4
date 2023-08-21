@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C++</title>
+</head>
+<body style="background-color: #f7f7f7; color: #333; font-family: Arial, sans-serif;">
+
+    <style>
+        .div {
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #e74c3c; /* Red color */
+            font-size: 32px;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        pre {
+            background-color: #fff; /* White background */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+            overflow: auto;
+        }
+
+        h3 {
+            color: #3498db; /* Blue color */
+        }
+        .home {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        #btn {
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        #btn:hover {
+            background-color: #2980b9;
+            transform: scale(1.05);
+        }
+    </style>
+    
+ 
+    <div class="div">
+        <h1>C++</h1>
+    </div>
+  
+    
+    <br><br><br><br>
+
+    <pre>
+        <h3>C++ is a powerful and versatile programming language that has been widely used for various applications, ranging from system programming to game development. It's an extension of the C programming language with additional features that support object-oriented programming (OOP) and generic programming.</h3>
+
+        <h3>Here are some key features and concepts of C++:</h3>
+        
+        <h3>Object-Oriented Programming (OOP): C++ supports the principles of OOP, including classes, objects, inheritance, and polymorphism. This allows developers to model real-world entities and their interactions in a more intuitive and organized way.</h3>
+        
+        <h3>Standard Template Library (STL): The STL provides a collection of data structures (like vectors, lists, queues, and stacks) and algorithms (such as sorting, searching, and manipulating) that are readily available for developers. It helps improve code reusability and productivity.</h3>
+        
+        <h3>Strong Typing: C++ enforces strong typing, which means variable types are checked at compile-time to catch type-related errors early in the development process.</h3>
+        
+        <h3>Performance: C++ is known for its efficiency and performance. It provides low-level memory manipulation and direct access to hardware, making it suitable for system-level programming, embedded systems, and performance-critical applications.</h3>
+        
+        <h3>Pointers and Memory Management: C++ allows direct memory manipulation through pointers, which gives developers fine-grained control over memory allocation and deallocation. However, this can also lead to issues like memory leaks and segmentation faults if not managed properly.</h3>
+        
+        <h3>Operator Overloading: C++ allows operators to be overloaded, meaning you can define custom behaviors for operators when applied to user-defined types.</h3>
+        
+        <h3>Standardization: C++ has an evolving standard known as the C++ Standard, with successive versions introducing new features, improvements, and optimizations.</h3>
+        
+        <h3>Portability: C++ code can be compiled and run on different platforms, making it portable across various operating systems.</h3>
+        
+        <h3>Multi-Paradigm: While C++ is known for its support of OOP, it also supports procedural programming and even functional programming to some extent.</h3>
+        
+        <h3>Popular Applications: C++ is used in a wide range of applications, including system software, game development, scientific computing, finance, robotics, and more.</h3>
+        
+        <h3>It's important to note that C++ can be more complex and requires careful memory management compared to some modern languages. However, its performance benefits and versatility make it a popular choice for certain types of projects. If you're new to programming, you might find C++ a bit challenging to start with due to its intricacies, but it's a rewarding language to learn for those who want to delve deep into system-level programming and software development.</h3>
+    </pre>
+    <body>
+        <div class = "home">
+        <button id = "btn">HOME</button>
+    </div>
+    <div class="home">
+        <button id="btn">HOME</button>
+    </div>
+    <script>
+        const btn = document.getElementById("btn");
+        btn.style.color = "red"
+        btn.style.backgroundColor = "blue"
+        btn.addEventListener("click", () => {
+            window.location.href = "index.html";
+        });
+    </script>
+</body>
+</html>
